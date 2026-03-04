@@ -1,0 +1,35 @@
+﻿# Python
+__pycache__/
+*.pyc
+
+# Results / caches / plots (generated)
+weekly_results/
+cache/
+Figures/
+
+# Solver artifacts
+*.lp
+*.mps
+*.sol
+
+# OS / Office temp files
+desktop.ini
+Thumbs.db
+.DS_Store
+~$*.xlsx
+*.twbr
+*.twbx
+
+# Large raw input workbooks
+Generation_Grid_Data/TYNDP_Demand_Data/*.xlsx
+Generation_Grid_Data/TYNDP_Generation_Data/*.xlsx
+
+
+# Ignore raw TYNDP Excel files
+Generation_Grid_Data/TYNDP_Demand_Data/*.xlsx
+Generation_Grid_Data/TYNDP_Generation_Data/*.xlsx
+
+
+# Ignore raw TYNDP Excel files
+Generation_Grid_Data/TYNDP_Demand_Data/*.xlsx
+Generation_Grid_Data/TYNDP_Generation_Data/*.xlsx
